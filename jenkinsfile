@@ -34,7 +34,8 @@ pipeline{
                                            }
                              ]
                              }"""
-                                           }             
+                             
+                                   server.upload(uploadSpec)       }             
                              }
 }
               stage ('Deploy')
