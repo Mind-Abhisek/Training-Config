@@ -30,7 +30,7 @@ pipeline{
                                "files": [
                                            {
                                              "pattern": "target/*.war",
-                                             "target": "lib-staging"
+                                             "target": "lib-staging/"
                                            }
                              ]
                              }"""
