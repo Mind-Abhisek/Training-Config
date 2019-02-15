@@ -48,7 +48,7 @@ steps{
 stage('notify')
 {
 steps{
-def notify(status){
+notify(status){
     emailext(
         to: "abhisek.pattnaik2@mindtree.com",
         subject: "${status}: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
